@@ -1,0 +1,65 @@
+Alt download link (for the githubers): https://files.catbox.moe/0w1ng6.zip
+
+All server invites that lead to the save server, just incase one somehows expires
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/9yzfPPwgM8
+https://discord.gg/DbaqPE42rY
+https://discord.gg/XeCKAgmmHB
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/tVYvrxJhkE
+https://discord.gg/KZygN4EJUk
+
+Cracked by kuromian1337 and confirmed by ananymoos (thanks)
+
+Frow 1.5 version is the fast brute btw which has threads. Btw the captcha key is for capsolver.com keys
+Leave the key blank or make it anything tbh i dont care
+
+Frow the retard spelt "proxys" wrong
+Maybe don't forget to compile ur source to a exe retard (pyarmor sucks)
+Frow is a FRIGGER
+The file came with the combos lol it's from Frow too, probably milked already though
+Frow uses a service called keyauth.win which was cracked instantly (github link: https://github.com/KeyAuth/KeyAuth-Python-Example)
+
+Discord (Cracker): kuromian1337
+Discord (Helper): ananymoos
+
+-----------------------------------------------------------
+
+How to use this bruteforcer FOR DUMMIES (a better tutorial)
+
+Before any of this, join the discord for better and/or future updates
+https://discord.gg/pJ8QRKwGa6
+
+Note: This is a paid bruteforcer program. This was programmed by frow, but I take credit now because he was paywalling the shit out of this when you got to pay for your key monthly and/or consistently just for it to work. You also need good proxies which I highly recommend thunderproxies.com, it's used by krash0818 and 86Bc as well as me (kuromian1337) but digiproxy.cc also works, it's just that it's confusing as fuck so I don't bother using it, apparently andry uses it though (a_dx)
+
+Stuff needed before any of this:
+capsolver.com key (paid)
+residential proxies from thunderproxies.com/digiproxy.cc or anywhere else (thunderproxies recommended but you can use any sites you personally enjoy and use the most as long as you know they are trusted and work, paid)
+account combos (in accounts.txt or run fixer.exe, its the combolist for your brute to check)
+
+First, you want to get python 3.12.1 or higher from the website (microsoft store breaks pyarmor completely and the current version for the website is always on https://www.python.org/downloads/ as its the official websource for python)
+
+When the python download opens, you want to click add to PATH and download py.exe as administrator (or this wont work)
+
+At the very end, if it says to check a box to bypass python path limit click that as well (even if it needs administrator permissions)
+
+Now, to see if it's working first open cmd by pressing both windows + r and type in cmd.exe (or press the windows button and type in cd and if there's something called "Command Prompt" press that or press enter)
+
+To test your python version, type in py and it should bring up a message below it says Python (installation version) and a lot of other stuff. To exit that without closing the command prompt or making a new cmd tab just type in exit() and you'll be back in the command prompt
+
+This is where stuff begins, if you haven't extracted this 1.5 crack zip file yet do that, put it somewhere where it makes sense and it won't take storage, no need to make a new folder if you're just extracting 1.5 and not the inner files. I personally use WinRAR and 7zip (WinRAR the most) to extract stuff but be very careful as one version has a phishing exploit (The same version Avur uses to rat people, which is version 6.22 or lower, see here: https://github.com/b1tg/CVE-2023-38831-winrar-exploit)
+
+Now, go to the extracted folder and on windows double click the top bar where the path is displayed without pressing any of the text TWICE and it should highlight blue, when that happens press ctrl + c or right click and press Copy
+
+Go to the cmd prompt again (assuming you didn't close it) and type in "cd" with a space at the end at first and then press ctrl + v or just right click to paste and press enter to execute
+
+Now you got to install the libraries for this script to work, so in the cmd prompt type in "pip3 install -r requirements.txt" or "py -m pip install -r requirements.txt" and then press enter and wait for the dependencies to download
+
+After that go to the path you extracted the folder in and open config.json, make sure to keep the value "Key" blank (you can put it to anything but tbh it's much easier just to keep it blank) and set your Captcha Key to the capsolver.com key (must have funds to work). In the Webhooks section, put in any of your webhooks from discord with the one you want, can be the same webhook btw it doesn't matter. Guess it was added for the OCD people. Recommended to stay below 10 threads because threading selenium is a bad idea, but frow did it anyways. Shows how much of a fucking retard he is and needs to learn more about gpus and cpus. Increase the Max Timeout to help this issue, though. Thread Load Time can be edited to what you want, I use 10 as a setting though
+
+Once that is done, you are ready to go. Now to execute the whole thing, type in "py main.py" and the script should now be running. Please note it will open a new chrome tab, that's just how the brute works as it solves with a cheap but paid captcha solving service aka capsolver.com (which frow attempted to paywall LMAO)
+
+-----------------------------------------------------------
+
+Made with homie love from kuromian himself

@@ -1,0 +1,58 @@
+{
+   "action": {
+      "default_icon": "icons/icon-48x48.png",
+      "default_popup": "www/index.html#/popup",
+      "default_title": "Captcha Solver: Auto bypass captcha"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "assets/content.css" ],
+      "js": [ "my-content-script.js", "image-to-text.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "funcaptcha-recognition.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*.arkoselabs.com/fc/*", "*://*.funcaptcha.com/fc/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "hcaptcha-recognition.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*.hcaptcha.com/captcha/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "recaptcha-recognition.js" ],
+      "match_about_blank": true,
+      "matches": [ "*://*.google.com/recaptcha/*", "*://*.recaptcha.net/recaptcha/*", "*://recaptcha.net/recaptcha/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "default_locale": "en",
+   "description": "Automatically solve reCAPTCHA, hCaptcha, FunCAPTCHA, AWS WAF, and more types on any webpage.",
+   "devtools_page": "www/index.html#/devtools",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "icons/icon-128x128.png",
+      "16": "icons/icon-16x16.png",
+      "48": "icons/icon-48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3bhIrd+QAMqoxK/fZedphdlVhYqiRnY7vTkWWSv4l1sOc+ty82RQOWs6FoLtHcSpSL9qlpB/yPrYyskc3JM1BIqwbXK1RCbx7ghR7TZdZNsDA9zLyiJ73atzZnWU2NPKW4FMva5HYD6s2WmIPUkltjdL23Qo5cpkVgJ2p3i6np6nX2JISZWg9Brn3RjuVcpuin3H+C09daePtrppafobc2uhVqm16M4KCS/4m8xSX+9oA2MEffa34nZ8HNCELJdbQ9UAsVUtJHvIEcU7vkyo1PvFXK3g7oHEUgVJEgXDlbPH4ARsFRKbsmpzUKmZWrv+SCIrzbC12+tyvcZw8dAy/wIDAQAB",
+   "manifest_version": 3,
+   "name": "Captcha Solver: Auto bypass captcha",
+   "permissions": [ "storage", "scripting", "contextMenus" ],
+   "short_name": "Captcha Solver: Auto bypass captcha",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.1",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*" ]
+   } ]
+}

@@ -1,0 +1,17 @@
+{
+    "Auth": {
+        "Key": "bruter-1mX7znLG8xjaJJqNWnlWSW",
+        "Captcha Key": "CAP-501EAD8C08FA9300F3D7D9A2DA6D749B",
+        "Webhooks": {
+            "Valid Accounts": "https://discord.com/api/webhooks/994339016314986608/K_q-2oDWpDc7U-GguOlYx0V-yRxa7fyxHDG4BRgDKjgYlRje9O8GaO5MfikCrERHb3HR",
+            "2FA Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Locked Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Confirm Idenity Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Termed Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4"
+        }
+    },
+    "Main": {
+        "Max Timeout": 50,
+        "Ping Webhook": true
+    }
+}

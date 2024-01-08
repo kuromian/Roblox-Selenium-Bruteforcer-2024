@@ -1,0 +1,52 @@
+(This is frows version of the installation, for an easier experience go to cracked_info.txt)
+
+Run these command in the cmd
+
+pip install selenium
+pip install requests
+main.py ( twice )
+
+HWID doesn't match. Ask for a HWID reset should not be issue for you im just on vm (virtual machine)
+If you are getting the "HWID doesn't match. Ask for a HWID reset" dm me asking for a hwid reset
+
+in accounts.txt you need to use user:password combos
+
+use kynaite /scrape to get a list of user combos
+use leakcheck bulk check bot to convert kynaites list of users to user:password combos
+both bots are discord bots you dm
+
+
+data.txt is just a file for the bot to remeber
+fixer will remove already checked accounts from your accounts.txt file by using the data.txt file
+keyauth is just there for the whitelist
+main is what you will be running to yk run the bot 
+fill proxys.txt with IP auth proxys
+you can delete this file when done
+
+in the config key will be the key you are given from me or the sellix
+in the config captcha key will be your capsolver key
+in webhooks you can have diffrent channels for diffrent types of pgs
+max timeout is the max amount of time on one pg combo
+Threads is how fast the bot will run
+Thread load time is how long to load in all the threads in the start of running the program
+
+example config
+
+{
+    "Auth": {
+        "Key": "bruter-1mX7znLG8xjaJJqNWnlWSW",
+        "Captcha Key": "CAP-501EAD8C08FA9300F3D7D9A2DA6D749B",
+        "Webhooks": {
+            "Valid Accounts": "https://discord.com/api/webhooks/994339016314986608/K_q-2oDWpDc7U-GguOlYx0V-yRxa7fyxHDG4BRgDKjgYlRje9O8GaO5MfikCrERHb3HR",
+            "2FA Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Locked Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Confirm Idenity Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4",
+            "Termed Accounts": "https://discord.com/api/webhooks/1178111676617343016/VZ3pwGJFVIdsqAndPMyze8j7GgvVaURpgARWsTjUuHtll_aVHF9e-YQbqAsMH9YON1e4"
+        }
+    },
+    "Main": {
+        "Max Timeout": 75,
+        "Threads": 3,
+	"Thread Load Time": 10
+    }
+}

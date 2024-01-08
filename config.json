@@ -1,0 +1,18 @@
+{
+    "Auth": {
+        "Key": "",
+        "Captcha Key": "",
+        "Webhooks": {
+            "Valid Accounts": "",
+            "2FA Accounts": "",
+            "Locked Accounts": "",
+            "Confirm Idenity Accounts": "",
+            "Termed Accounts": ""
+        }
+    },
+    "Main": {
+        "Max Timeout": 75,
+        "Threads": 1,
+	"Thread Load Time": 10
+    }
+}
