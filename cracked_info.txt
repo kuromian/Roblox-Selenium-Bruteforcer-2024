@@ -1,35 +1,37 @@
 Alt download link (for the githubers): https://files.catbox.moe/0w1ng6.zip
 
 All server invites that lead to the save server, just incase one somehows expires
-https://discord.gg/pJ8QRKwGa6
-https://discord.gg/pJ8QRKwGa6
-https://discord.gg/9yzfPPwgM8
-https://discord.gg/DbaqPE42rY
-https://discord.gg/XeCKAgmmHB
-https://discord.gg/pJ8QRKwGa6
-https://discord.gg/tVYvrxJhkE
-https://discord.gg/KZygN4EJUk
+https://discord.gg/8XwsDFNYmV
+https://discord.gg/5wRSwMXfcQ
+https://discord.gg/SpN7gFGUv9
+https://discord.gg/8u6aQUHvh3
+https://discord.gg/zsjaUprwNj
+https://discord.gg/mZ5hejVAPH
+https://discord.gg/QJUAcq8HTN
 
 Cracked by kuromian1337 and confirmed by ananymoos (thanks)
 
-Frow 1.5 version is the fast brute btw which has threads. Btw the captcha key is for capsolver.com keys
+Frow 1.5 version is a slow brute btw which has threads (fast one turns out just use apis instead LOLOLOL). Btw the captcha key is for capsolver.com keys
 Leave the key blank or make it anything tbh i dont care
 
-Frow the retard spelt "proxys" wrong
-Maybe don't forget to compile ur source to a exe retard (pyarmor sucks)
-Frow is a FRIGGER
+Frow the dum-dum spelt "proxys" wrong
+Maybe don't forget to compile ur source to a exe dummy (pyarmor sucks)
+Frow used obfuscation for the main python file, which I have to delete as it breaks GITHUB tos. Look above though, just download that.
+Frow compiled fixer.exe, so I have to remove that as well. Look at the first line of this txt to get all of the files.
 The file came with the combos lol it's from Frow too, probably milked already though
 Frow uses a service called keyauth.win which was cracked instantly (github link: https://github.com/KeyAuth/KeyAuth-Python-Example)
 
 Discord (Cracker): kuromian1337
 Discord (Helper): ananymoos
 
+FYI: I have stopped cracking his programs because it's literally just the same thing but with a little feature or bugfix added. You can crack it yourself by downloading pycdas and disassembling it, and then manually recreate the whole thing from there.
+
 -----------------------------------------------------------
 
 How to use this bruteforcer FOR DUMMIES (a better tutorial)
 
 Before any of this, join the discord for better and/or future updates
-https://discord.gg/pJ8QRKwGa6
+https://discord.gg/SpN7gFGUv9
 
 Note: This is a paid bruteforcer program. This was programmed by frow, but I take credit now because he was paywalling the shit out of this when you got to pay for your key monthly and/or consistently just for it to work. You also need good proxies which I highly recommend thunderproxies.com, it's used by krash0818 and 86Bc as well as me (kuromian1337) but digiproxy.cc also works, it's just that it's confusing as fuck so I don't bother using it, apparently andry uses it though (a_dx)
 
@@ -56,10 +58,20 @@ Go to the cmd prompt again (assuming you didn't close it) and type in "cd" with 
 
 Now you got to install the libraries for this script to work, so in the cmd prompt type in "pip3 install -r requirements.txt" or "py -m pip install -r requirements.txt" and then press enter and wait for the dependencies to download
 
-After that go to the path you extracted the folder in and open config.json, make sure to keep the value "Key" blank (you can put it to anything but tbh it's much easier just to keep it blank) and set your Captcha Key to the capsolver.com key (must have funds to work). In the Webhooks section, put in any of your webhooks from discord with the one you want, can be the same webhook btw it doesn't matter. Guess it was added for the OCD people. Recommended to stay below 10 threads because threading selenium is a bad idea, but frow did it anyways. Shows how much of a fucking retard he is and needs to learn more about gpus and cpus. Increase the Max Timeout to help this issue, though. Thread Load Time can be edited to what you want, I use 10 as a setting though
+After that go to the path you extracted the folder in and open config.json, make sure to keep the value "Key" blank (you can put it to anything but tbh it's much easier just to keep it blank) and set your Captcha Key to the capsolver.com key (must have funds to work). In the Webhooks section, put in any of your webhooks from discord with the one you want, can be the same webhook btw it doesn't matter. Guess it was added for the OCD people. Recommended to stay below 10 threads because threading selenium is a bad idea, but frow did it anyways. Shows how much of a dummy he is and needs to learn more about gpus and cpus. Increase the Max Timeout to help this issue, though. Thread Load Time can be edited to what you want, I use 10 as a setting though
 
 Once that is done, you are ready to go. Now to execute the whole thing, type in "py main.py" and the script should now be running. Please note it will open a new chrome tab, that's just how the brute works as it solves with a cheap but paid captcha solving service aka capsolver.com (which frow attempted to paywall LMAO)
 
 -----------------------------------------------------------
 
 Made with homie love from kuromian himself
+
+Soon to be dead server links here: (use the updated ones at the top of this txt)
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/9yzfPPwgM8
+https://discord.gg/DbaqPE42rY
+https://discord.gg/XeCKAgmmHB
+https://discord.gg/pJ8QRKwGa6
+https://discord.gg/tVYvrxJhkE
+https://discord.gg/KZygN4EJUk
